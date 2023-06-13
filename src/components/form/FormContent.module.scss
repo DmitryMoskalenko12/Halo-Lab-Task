@@ -1,0 +1,16 @@
+@use '../../styles/variables.scss';
+.Form {
+  width: variables.$FormWidth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: variables.$BackgroundColorForm;;
+  border-radius: variables.$BorderRadius;
+  padding: variables.$FormPadding;
+}
+
+.Required {
+  color: variables.$ColorBorder;
+  margin-bottom: variables.$MarginBottom;
+}
